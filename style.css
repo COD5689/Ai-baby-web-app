@@ -1,0 +1,53 @@
+
+.heading{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+background-color: rgb(173, 229, 238);
+padding: 5px;
+animation-name: border;
+animation-duration: 6s;     
+animation-iteration-count: infinite;
+}
+
+#status{
+font-size: 18px;
+color: rgb(255, 130, 145);
+background-color: whitesmoke;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+canvas{
+    border-radius: 10px;
+    margin-top: 30px;
+    animation-name: border;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    to{box-shadow: 10px 10px 10px grey;}
+    from{box-shadow: 10px 10px 10px rgb(0, 0, 0);}
+}
+
+.footer{
+    text-align: center;
+    color: rgb(52, 120, 122);
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-shadow: 5px 5px 5px rgb(155, 245, 233); 
+    background-color: aliceblue;
+}
+
+.p{
+    color: rgb(52, 120, 122);
+    background-color: azure;
+    border-radius: 20px;
+}
